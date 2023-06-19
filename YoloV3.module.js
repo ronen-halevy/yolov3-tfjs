@@ -220,4 +220,4 @@ const createModel = (modelUrl, anchorsUrl, classNamesUrl) => {
 
 // module.exports = yolo;
 const streamer = {YoloV3: YoloV3, createModel: createModel} 
-module.exports = streamer
+module.exports = yolov3
