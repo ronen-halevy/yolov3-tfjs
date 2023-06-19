@@ -219,5 +219,5 @@ const createModel = (modelUrl, anchorsUrl, classNamesUrl) => {
 // };
 
 // module.exports = yolo;
-const streamer = {YoloV3: YoloV3, createModel: createModel} 
+const yolov3 = {YoloV3: YoloV3, createModel: createModel} 
 module.exports = yolov3
